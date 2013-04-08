@@ -133,22 +133,22 @@ angular.module('myMod').factory('myService', function () {
 });
 ```
 
-#### Options
-There are options for each of the methods for registering services. For more on using these services, see the [module API AngularJS documentation](http://docs.angularjs.org/api/angular.Module).
+#### Argument
+There is an optional argument for each of the methods for registering services. For more on using these services, see the [module API AngularJS documentation](http://docs.angularjs.org/api/angular.Module).
 
 ##### Factory
-Invoked with `--factory`
+Invoked with `factory`
 
-This is the default method when creating a service. Running `yo angular:service myService --factory` is the same as running `yo angular:service myService`
+This is the default method when creating a service. Running `yo angular:service myService factory` is the same as running `yo angular:service myService`
 
 ##### Service
-Invoked with `--service`
+Invoked with `service`
 
 ##### Value
-Invoked with `--value`
+Invoked with `value`
 
 ##### Constant
-Invoked with `--constant`
+Invoked with `constant`
 
 ## Options
 In general, these options can be applied to any generator, though they only affect generators that produce scripts.
